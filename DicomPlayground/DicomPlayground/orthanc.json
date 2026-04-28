@@ -1,0 +1,16 @@
+{
+  "Name": "Orthanc",
+  "DicomAet": "ORTHANC",
+  "DicomPort": 4242,
+
+  "DicomCheckCalledAet": false,
+
+  "DicomModalities": {
+    "SCU": [ "SCU", "host.docker.internal", 11112 ]
+  },
+
+  "Verbose": true,
+  "DicomVerbose": true,
+
+  "RemoteAccessAllowed": true
+}
